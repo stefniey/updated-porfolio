@@ -1,0 +1,62 @@
+/* .about-content{
+    height: 100vh;
+    width: 100%;
+} */
+.about-img{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 89vh;
+    position: relative;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+}
+.h2{
+    display: flex;
+    gap: 3px;
+    padding: 5% 0 30px 40px;
+
+
+}
+h2{
+    color: black;
+    font-size: 20px;
+}
+.line{
+    background-color: orangered;
+    margin-top: 20px;
+    height: 3px;
+    width: 50px;
+}
+.main-content{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.image{
+    margin: auto;
+
+}
+.stefniey{
+    background-color: black;
+
+}
+.stef-text{
+    background-color: #fff;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
