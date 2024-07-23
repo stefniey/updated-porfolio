@@ -13,13 +13,6 @@
     margin: 0 auto;
 }
 
-.ptag {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .text {
     padding: 10px 20px;
     font-size: medium;
@@ -74,11 +67,6 @@
         margin: 0;
     }
 
-    .ptag {
-        width: 60%;
-        text-align: left;
-    }
-
     .text {
         font-size: large;
         line-height: 30px;
@@ -90,3 +78,16 @@
         max-width: calc(20% - 20px);
     }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+    .img{
+      display: flex;
+      margin: auto;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  }

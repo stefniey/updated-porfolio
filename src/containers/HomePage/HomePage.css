@@ -117,14 +117,39 @@ a{
     padding: 0;
   
 }
-.ptag{
-  padding: 0 2px 0 2px;
-}
+
 .links > div {
   font-size: small;
   margin: 10px;
   text-align: center;
   flex: 0 1 calc(9.0% - 10px);
 }
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+  .img{
+    display: flex;
+    margin: auto;
+  }
+  
+  .container > div {
+    width: calc(50% - 20px); 
+    max-width: 400px;
+  }
+
+  .profile{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  
+}
+
+.links > div {
+  font-size: small;
+  margin: 10px;
+  text-align: center;
+  flex: 0 1 calc(9.0% - 10px);
+}
+
 
 }

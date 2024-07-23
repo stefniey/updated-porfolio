@@ -161,7 +161,7 @@ const HomePage = () => {
             </a>
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="fade-right">
             <h1>Gpt-3</h1>
             <p>ReactJs</p>
             <img src={images.codenova} alt="" width="90%" />
@@ -170,7 +170,7 @@ const HomePage = () => {
             </a>
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="fade-left">
             <h1>GetFood</h1>
             <p>Html & Css</p>
             <img src={images.getfood} alt="" width="90%" />
