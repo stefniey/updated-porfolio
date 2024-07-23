@@ -29,7 +29,7 @@ const HomePage = () => {
         <div>
           <h1 data-aos="fade-left">Stephanie Alor</h1>
           <h1 data-aos="fade-left"><small>Embraces your presence ☺️</small></h1>
-          <p data-aos="fade-left" className="ptag">Explore my portfolio and discover the dynamic potential of web development in action. As a passionate and seasoned Frontend developer, I specialize in crafting visually stunning and supremely functional websites. Each project reflects my commitment to innovation, creativity, and user-centric design, ensuring an engaging and seamless experience. Dive in to see the transformative power of expertly crafted digital solutions.</p>
+          <p data-aos="fade-left" >Explore my portfolio and discover the dynamic potential of web development in action. As a passionate and seasoned Frontend developer, I specialize in crafting visually stunning and supremely functional websites. Each project reflects my commitment to innovation, creativity, and user-centric design, ensuring an engaging and seamless experience. Dive in to see the transformative power of expertly crafted digital solutions.</p>
           <br />
 
           <a href={resume}>
@@ -181,7 +181,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <a href="/works">
+      <a href="/Works">
         <button className="btn">View More</button>
       </a>
       <br />
