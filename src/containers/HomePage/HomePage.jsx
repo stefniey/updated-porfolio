@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import images from "../../constants/images";
 import resume from '../../assets/resume.pdf'
-// import project from "../../components";
+import { Link } from 'react-router-dom';
 import "./HomePage.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -182,10 +182,10 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* <a href='/Project'>
-        <button className="btn">View More</button>
-      </a>
-      <br /> */}
+
+      <Link to="/Project">
+      <button className="btn">View More</button>
+      </Link>
       <br />
 
       {/* contact */}
