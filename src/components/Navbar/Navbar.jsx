@@ -38,7 +38,7 @@ const Navbar = () => {
               <NavLink to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink to="/Works">Works</NavLink>
+              <NavLink to="/Project">Works</NavLink>
             </li>
             <li>
               <NavLink to="/Contact">Contact</NavLink>
@@ -73,7 +73,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink data-aos="fade-down" to="/Works" onClick={closeNavbar}>
+              <NavLink data-aos="fade-down" to="/Project" onClick={closeNavbar}>
                 Works
               </NavLink>
             </li>

@@ -140,7 +140,7 @@
         padding: 10px 16px; 
     }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) and (orientation: portrait) {
+@media only screen and (min-device-width: 450px) and (max-device-width: 1000px) and (orientation: portrait) {
     .hotline{
         display: flex;
         flex-direction: column;
