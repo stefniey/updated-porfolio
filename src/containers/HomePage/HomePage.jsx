@@ -182,9 +182,10 @@ const HomePage = () => {
         </div>
       </div>
 
-      <a href='/Project'>
+      {/* <a href='/Project'>
         <button className="btn">View More</button>
       </a>
+      <br /> */}
       <br />
 
       {/* contact */}
