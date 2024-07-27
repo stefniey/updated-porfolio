@@ -1,6 +1,7 @@
 import React from 'react'
 import { Hero } from '../containers'
-import { Footer, Navbar} from '../components';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 const About = () => {
     return (

@@ -2,9 +2,8 @@ import Navbar from './Navbar/Navbar';
 import Work from './Work/Work';
 import Footer from './Footer/Footer';
 
-export {
+export default {
     Navbar,
     Work,
     Footer
-
 };
